@@ -1,0 +1,64 @@
+.container {
+    display: flex; /* Use flexbox for positioning */
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center; /* Vertically center content */
+    padding: 10px; /* Add padding for spacing */
+    border: 1px solid #ccc; /* Optional border for visual separation */
+}
+
+/* Styling for the text */
+.text {
+    flex: 1; /* Allow text to take available space */
+    margin-right: 2px; /* Add spacing between text and image */
+}
+
+/* Styling for the image */
+.image {
+    max-width: 100%; /* Ensure the image fits within the container */
+    max-height: 100px; /* Limit image height (adjust as needed) */
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+h2{
+    margin-bottom: 20px;
+    color:cornflowerblue;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: flex-end;
+    border: #ccc;
+}
+.text2{
+    flex: 1;
+}
+h1{
+    color: cornflowerblue;
+}
+U{
+color: cornflowerblue;
+}
+.container3{
+    padding: 10px;
+}
+p{
+    font-size: 20px;
+}
+h4{
+    font-size: larger;
+}
+.container4{
+
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: flex-end;
+    border: #ccc;
+
+}
+.image1{
+    flex: 1;
+}
